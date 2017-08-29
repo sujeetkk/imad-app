@@ -33,3 +33,12 @@ button.onclick=function(){
     request.open('GET','http://sujeetk270396.imad.hasura-app.io/counter',true);
     request.send(null);
 };
+
+//submit name
+var nameinpput = document.getElementById('name');
+var name=nameInput.value;
+var submit=document.getElementById('submit_btn');
+submit.onclick=function() {
+    
+};
+}
