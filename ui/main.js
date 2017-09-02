@@ -28,7 +28,7 @@ submit.onclick=function() {
         if(request.status===200){
    //capture a list
 var names request.responsText;
-names=JSON.parse(name);
+names=JSON.parse(names);
 var list='';
 for(var i=0;i<names.length;i++){
     list+='<li>' +names[i] + '</li>';
