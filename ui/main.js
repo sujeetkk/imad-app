@@ -14,6 +14,10 @@ img.onclick=function() {
 var button=document.getElementById('counter');
 
 button.onclick=function(){
+    
+    var submit=document.getElementById('submit_btn');
+submit.onclick=function() {
+//make request
 //create a request
     var request=new XMLHttpRequest();
     
@@ -44,8 +48,6 @@ var name=nameInput.value;
 };
 
 
-var submit=document.getElementById('submit_btn');
-submit.onclick=function() {
-//make request
+
 
 };
