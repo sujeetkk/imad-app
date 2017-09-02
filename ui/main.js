@@ -13,10 +13,6 @@ img.onclick=function() {
 //Counter code
 var button=document.getElementById('counter');
 
-//make the request
-request.open('GET','http://sujeetk270396.imad.hasura-app.io/counter',true);
-request.send(null);
-
 button.onclick=function(){
     
     var submit=document.getElementById('submit_btn');
