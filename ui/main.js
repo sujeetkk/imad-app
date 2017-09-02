@@ -9,13 +9,7 @@ function moveRight() {
 img.onclick=function() {
     var interval=setInterval(moveRight,100);
 };
-
-//Counter code
-var button=document.getElementById('counter');
-
-
-    
-    var submit=document.getElementById('submit_btn');
+var submit=document.getElementById('submit_btn');
 submit.onclick=function() {
 //make request
 //create a request
@@ -45,9 +39,4 @@ var nameInput = document.getElementById('name');
 var name=nameInput.value;
     request.open('GET','http://sujeetk270396.imad.hasura-app.io/submit-name?name=' +name,true);
     request.send(null);
-};
-
-
-
-
 };
